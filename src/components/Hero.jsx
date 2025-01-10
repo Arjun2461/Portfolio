@@ -13,7 +13,7 @@ const Hero = () => {
             <div className='max-w-7xl mx-auto'>
                 <div className='flex flex-col md:flex-row items-center lg:h-[90vh] justify-between ml-2' >
                     <div className='md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-5 lg:px-4 lg:mt-0 mt-10'>
-                        <h1 className='lg:text-5xl text-lg font-bold lg:leading-snug'>Hi There, <br />I'm <TypeAnimation className='text-[#007fff] lg:text-5xl font-bold'
+                        <h1 className='lg:text-5xl text-4xl md:text-left text-center font-bold lg:leading-snug'>Hi There, <br />I'm <TypeAnimation className='text-[#007fff] lg:text-5xl font-bold'
                             sequence={[
                                 'Arjun Joshi',
                                 1000,
