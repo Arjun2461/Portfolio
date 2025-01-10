@@ -1,9 +1,5 @@
 import React from 'react';
 import Hero1 from '../assets/Hero1.png';
-import hero from '../assets/hero.png';
-import reactLogo from '../assets/React.png';
-import reduxLogo from '../assets/Redux.png';
-import tailwind from '../assets/Tailwind Css.png';
 import { TypeAnimation } from 'react-type-animation';
 import { Stack ,Chip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';

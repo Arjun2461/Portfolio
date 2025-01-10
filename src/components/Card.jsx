@@ -1,5 +1,4 @@
 import React from 'react';
-import Github from '../assets/Github.png';
 import { Card, CardActions, CardContent, CardMedia, Typography, Button } from '@mui/material';
 
 const Cards = ({ item }) => {
