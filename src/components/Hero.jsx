@@ -12,7 +12,7 @@ const Hero = () => {
             <div className='max-w-7xl mx-auto'>
                 <div className='flex flex-col md:flex-row items-center lg:h-[90vh] justify-between ml-2' >
                     <div className='md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-5 lg:px-4 lg:mt-0 mt-10'>
-                        <h1 className='lg:text-5xl text-2xl md:text-left  font-bold lg:leading-snug'>Hi👋🏻 There, <br />I'm <TypeAnimation className='text-[#007fff] lg:text-5xl font-bold text-3xl'
+                        <h1 className='lg:text-5xl text-2xl md:text-left  font-bold lg:leading-snug'>Hi👋🏻 There, <br />I'm <TypeAnimation className='text-[#007fff] lg:text-5xl font-bold text-2xl'
                             sequence={[
                                 'Arjun Joshi',
                                 1000,
@@ -22,7 +22,7 @@ const Hero = () => {
                             wrapper="span"
                             cursor={true}
                             repeat={Infinity} /></h1>
-                        <p className='mb-4 text-justify '>I'm a passionate web developer with expertise in React, and modern web technologies. I love creating beautiful and functional website that solve real world problems.</p>
+                        <p className='mb-4 text-justify text-base'>I'm a passionate web developer with expertise in React, and modern web technologies. I love creating beautiful and functional website that solve real world problems.</p>
                         <button className='text-[#007fff] border-2 border-[#007fff] font-Poppins px-3 py-2 w-max rounded-md '><a href="https://drive.google.com/file/d/1JJ2RxyBX62TsrewTTl4qkeySG5Cvigus/view?usp=sharing" download target='_blank'>Download CV</a></button>
                         <Stack direction="row" spacing={3} className='mt-4' >
                             <a target="_blank" rel='noreferrer' href='https://github.com/Arjun2461'><Chip label="GitHub" icon={<GitHubIcon fontSize="small" />} onClick={() => { }} /></a>
