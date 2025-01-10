@@ -1,25 +1,32 @@
 import React from 'react';
 import Github from '../assets/Github.png';
+import { Card, CardActions, CardContent, CardMedia, Typography, Button } from '@mui/material';
 
-const Card = ({ item }) => {
+const Cards = ({ item }) => {
     return (
-           <div className=' border-2 border-[#00ffdd] hover:border-3  hover:border-black  rounded-lg w-[350px] lg:w-[380px] bg-red-50  hover:w-[400px]  hover:shadow-xl  hover:shadow-[#00ffee] transition-all duration-300'>
-               <img src={item.image} alt="" className='rounded-lg' />
-               <div className='p-4'>
-                   <h1 className='font-semibold text-xl mb-2'>{item.title}</h1>
-                   <p>{item.desc}</p>
-                   <div className='flex gap-3 mt-4'>
-                       <button className='bg-[#00fffffd] shadow-md shadow-black text-white px-3 py-2 rounded-md'><a href={item.live} target='_blank'>Live Preview</a></button>
-                       <button className='bg-black text-white px-3 py-2 rounded-md'>
-                           <a href={item.github} target='_blank' className='flex gap-1'>
-                               <img src={Github} alt="" className='w-6'/>
-                               Github Link
-                           </a>
-                       </button>
-                   </div>
-               </div>
-           </div>
-       )
+
+        <Card sx={{ maxWidth: 700 }} className="card p-4 m-8 text-left text-inherit border border-gray-300 rounded-lg transition-colors duration-150 ease-in-out  hover:border-blue-500  focus:border-blue-500  active:border-blue-500 font-Poppins">
+            <CardMedia
+                component="img"
+                width="100%"
+                image={item.image}
+                alt="img"
+            />
+            <CardContent className="p-4 sm:p-8">
+                <Typography gutterBottom variant="h5" component="div" className='text-xl mb-4'>
+                    {item.title}
+                </Typography>
+                <Typography variant="body2" color="text.secondary" className='text-lg leading-relaxed'>
+                    {item.desc}
+                </Typography>
+            </CardContent>
+            <CardActions className="p-4 sm:p-8">
+                <Button size="small" target="_blank" rel='noreferrer' href={item.live} >Website</Button>
+                <Button size="small" target="_blank" rel='noreferrer' href={item.Github} >GitHub</Button>
+            </CardActions>
+        </Card>
+
+    )
 }
 
-export default Card;
+export default Cards;
