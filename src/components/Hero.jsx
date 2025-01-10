@@ -10,7 +10,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Hero = () => {
     return (
 
-        <section  id='home' className='w-full  flex items-center justify-center text-white  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]'>
+        <section  id='home' className='w-full  flex items-center justify-center text-white '>
             <div className='max-w-7xl mx-auto'>
                 <div className='flex flex-col md:flex-row items-center lg:h-[90vh] justify-between ml-2' >
                     <div className='md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10'>
