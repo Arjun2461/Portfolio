@@ -102,7 +102,7 @@ const About = () => {
                         </div>
                         <div className='mt-12'>
                             <h3 className='text-2xl font-semibold text-gray-900'>More About Me</h3>
-                            <p className='mt-4 text-lg text-gray-600'>
+                            <p className='mt-4 text-lg text-gray-600 text-justify'>
                             I am an aspiring Full-Stack Developer with strong skills in C, C++, Java, and JavaScript, combined with hands-on experience in web development using technologies like HTML, CSS, Node.js, and Express.js. My expertise extends to working with databases such as MongoDB and MySQL. Passionate about solving complex problems and continually learning, I strive to craft solutions that deliver value and impact.
                             </p>
                         </div>
