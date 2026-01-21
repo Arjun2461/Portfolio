@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero1 from '../assets/Hero1.png';
+import Hero2 from '../assets/Hero2.png';
 import { TypeAnimation } from 'react-type-animation';
 import { Stack ,Chip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
